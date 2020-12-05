@@ -1,7 +1,7 @@
 'use strict'
 
 /*
-// functions
+// >>>>>>> functions
 function logger() {
   console.log('my name is haoran')
 }
@@ -21,6 +21,10 @@ const num = Number('23')
 console.log(num);
 */
 
+
+
+/*
+// >>>>>> ARROW FUNCTIONS
 // can call a function declaration before the code define it, but cannot do this to expression, this is because of hoisting
 // function declaration
 function calcAge1(birthYear) {
@@ -63,3 +67,22 @@ console.log(yearsUntilRetirementAndName(1980, 'Tom'));
 // when to use arrow functions(function expression) and function declarations
 // fact: arrow functions do not get a so-called 'this' keyword
 
+*/
+
+
+
+
+// >>>>> function calling other functions
+
+function cutFruitPieces(fruit) {
+  return fruit * 4;
+}
+
+function fruitProcessor(apples, oranges) {
+  const applepieces = cutFruitPieces(apples);
+  const orangepieces = cutFruitPieces(oranges);
+  const juice = `Juice with ${applepieces} and ${orangepieces} oranges.`;
+  return juice;
+}
+
+console.log(fruitProcessor(2, 3));
