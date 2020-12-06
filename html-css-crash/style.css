@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #e9eeabd8;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	padding: 50px;
+}
+h1 {
+	font-size: 40px;
+	/* padding-bottom: 10px; */
+	margin-bottom: 25px;
+}
+h2 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+p {
+	margin-bottom: 20px;
+}
+.first {
+	color: red;
+}
+
+#donation {
+	background-color: yellow;
+	border: 5px solid rgb(175, 135, 135);
+	width: 400px;
+	padding: 25px;
+	margin-top: 30px;
+}
+
+a {
+	background-color: yellowgreen;
+}
+
+#baoguo {
+	width: 300px;
+}
+
+#donation h2 {
+	color: olivedrab;
+}
